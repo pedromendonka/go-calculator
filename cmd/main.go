@@ -6,6 +6,7 @@ import (
 	"go-calculator/internal/calculator"
 )
 
+// main is the entry point of the application
 func main() {
 	banner.PrintBanner()
 	calculator.Run()
